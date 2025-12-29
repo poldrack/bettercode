@@ -1,0 +1,21 @@
+book/_build
+__pycache__
+.DS_Store
+.coverage
+.hypothesis
+.env
+._*
+.snakemake
+
+# Workflow output directories
+**/simple_workflow/*/output/
+
+data
+exports
+notebooks
+
+# MyST build outputs
+_build
+
+# backup files from latin checker
+*.md-e
